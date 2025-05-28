@@ -231,8 +231,8 @@ logging.info("Generated Array: %s", MY_ARRAY)
 logging.info("Blocks: %s", myBlocks(MY_ARRAY))
 
 # Output example
-# Generated Array: [3, 0, 1, 4, 0, 2, 5, 0, 6, 7, 8, 9]
-# Blocks: 0134 X 025 X 06789
+# Generated Array: [3, 0, 1, 4, 0, 2, 5, 0, 6, 7, 8, 9, 0, 1, 2]
+# Blocks: 3 14 25 6789 12
 ```
 
 #### Ejecutar el código
