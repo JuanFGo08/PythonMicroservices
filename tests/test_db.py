@@ -1,5 +1,6 @@
-import pytest
 import unittest
+
+import pytest
 from mysql.connector import DatabaseError
 
 from database.config import DB_CONFIG
@@ -30,7 +31,6 @@ class TestDatabase(unittest.TestCase):
 		finally:
 			if conn.is_connected():
 				conn.close()
-
 
 	def test_get_db_connection_error(self):
 		"""Test the database connection error handling."""
