@@ -18,18 +18,18 @@ Este microservicio permite realizar operaciones CRUD sobre propiedades inmobilia
 
 ## 📁 Estructura del proyecto
 
-pythonmicroservices/
-├── database/
-│   ├── config.py # Configuración de la base de datos
-│   └── db.py # Conexión a la base de datos
-├── mylib/
-│   └── queries.py # Consultas a la base de datos
-├── tests/
-│   ├── test_db.py # Pruebas de conexión a la base de datos
-│   └── test_main.py # Pruebas del servidor HTTP
-├── requirements.txt # Dependencias del proyecto
-└── Makefile # Archivo para automatizar tareas
-└── main.py # Punto de entrada del microservicio
+pythonmicroservices/  
+├── database/  
+│   ├── config.py # Configuración de la base de datos  
+│   └── db.py # Conexión a la base de datos  
+├── mylib/  
+│   └── queries.py # Consultas a la base de datos  
+├── tests/  
+│   ├── test_db.py # Pruebas de conexión a la base de datos  
+│   └── test_main.py # Pruebas del servidor HTTP  
+├── requirements.txt # Dependencias del proyecto  
+└── Makefile # Archivo para automatizar tareas  
+└── main.py # Punto de entrada del microservicio  
 
 ## Documentación de la API
 ### Endpoints
